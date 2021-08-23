@@ -1,1 +1,27 @@
-print("Hello, World!") #firstprogram
+print("Hello, World!") #firstprogram Print Hello, World!
+
+n = int(input().strip())#secondprogram Python If-Else
+if n%2==1:
+    print "Weird"
+elif n%2 == 0 and 2 <= n <= 5:
+    print "Not Weird"
+elif n%2 == 0 and 6 <= n <= 20:
+    print "Weird"
+else:
+    print "Not Weird"
+
+    a = int(input())#thirdprogram Arithmetic Operators
+    b = int(input())
+    print(a+b)
+    print(a-b)
+    print(a*b)
+
+    a = int(input())#fourthprogram Python: Division
+    b = int(input())
+    print(int(a/b))
+    print(float(a/b))
+
+    n = int(input())#fifthprogram Loops
+    if n>0:
+        for i in range(0,n):
+            print(i*i)
